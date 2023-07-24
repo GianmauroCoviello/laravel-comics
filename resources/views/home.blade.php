@@ -16,7 +16,13 @@
 </head>
 
 <body>
+    <!-- includiamo l'header all'interno della home -->
     @include('partials.header')
+    <main>
+        <div class="jumbotron">
+            
+        </div>
+    </main>
 </body>
 
 </html>
