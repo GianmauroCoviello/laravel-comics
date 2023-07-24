@@ -19,8 +19,22 @@
     <!-- includiamo l'header all'interno della home -->
     @include('partials.header')
     <main>
-        <div class="jumbotron">
-            
+        <div class="jumbotron"></div>
+        <div class="container-fluid bg-dark py-5">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <!-- inseriamo un ciclo foreach ciclando l'array associativo contenuto del file comics.php -->
+                    @foreach($DcCards as $comic )
+                        <!-- cicliamo le card  -->
+                        <div class="dc-card">
+                            <p class="text-primary">{{$comic['series']}}</p>
+
+                        </div>
+                    @endforeach
+                </div>
+                
+
+            </div>
         </div>
     </main>
 </body>

@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    // inseriamo una variabile che riprenda l'array associativo contenuto nel file comics
+    $DcCards = config('comics.DcCards');
+    
+    return view('home',compact('DcCards'));
 });
