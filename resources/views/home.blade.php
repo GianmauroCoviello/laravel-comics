@@ -22,15 +22,28 @@
         <div class="jumbotron"></div>
         <div class="container-fluid bg-dark py-5">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-10 d-flex flex-wrap">
                     <!-- inseriamo un ciclo foreach ciclando l'array associativo contenuto del file comics.php -->
                     @foreach($DcCards as $comic )
                         <!-- cicliamo le card  -->
                         <div class="dc-card">
-                            <p class="text-primary">{{$comic['series']}}</p>
+                            <div class="content-img-card">
+                                <img src="https://picsum.photos/seed/picsum/200/300" alt="">" 
+                            </div>
+                            
+                            <p class="text-light">{{$comic['series']}}</p>
 
                         </div>
                     @endforeach
+                </div>
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn px-5 btn-primary">LOAD MORE</button>
+                        </div>
+                        
+                        
+                    </div>
                 </div>
                 
 

@@ -11,7 +11,7 @@
     </div>
     <div class="container-fluid ">
         <div class="row justify-content-center">
-            <div class="col-8 py-3 d-flex ">
+            <div class="col-10 py-3 d-flex ">
                 <img src="{{Vite::asset('./resources/images/dc-logo.png')}}" alt="">
                 <nav class="menu">
                     <ul>
@@ -29,7 +29,7 @@
                             <a href="#">SHOP</a>
                         </li>
                     </ul>
-                    <input type="text" placeholder="search">
+                    <!-- <input type="text" placeholder="search"> -->
                 </nav>                
             </div>
             
