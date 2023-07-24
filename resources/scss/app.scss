@@ -1,1 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
+
+header{
+    .menu{
+        display: flex;
+        align-items: center;
+
+        ul{
+            list-style-type: none;
+            li{
+                
+                a{
+                    text-decoration: none;
+                    margin: 0 10px;
+                    color: black;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
