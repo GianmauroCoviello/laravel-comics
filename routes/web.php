@@ -20,10 +20,10 @@ Route::get('/', function () {
     return view('home',compact('DcCards'));
 });
 
-// inseriamo una nuova rotta con il paramtro id all'interno della funzione 
+// inseriamo una nuova rotta con il parametro id all'interno della funzione 
 Route::get('/DcCards/{comic}', function($id) {
     
-    
+
     $DcCards = config('comics.DcCards');
 
     $comic = $DcCards[$id];

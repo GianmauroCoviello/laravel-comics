@@ -11,10 +11,10 @@
                         <!-- cicliamo le card  -->
                         
                         <div class="dc-card">
-                            
+                            {{-- inseriamo un link che riprendera la singola card tramite l'$id portando alla nuova rotta --}}
                             <a href="{{route('DcCards.comic', $id)}}">
                                 <div class="content-img-card">
-                                    <img src="{{$comic['thumb']}}" alt="">" 
+                                    <img src="{{$comic['thumb']}}" alt="">
                                 </div>
                             
                                 <p class="text-light">{{$comic['series']}}</p>
