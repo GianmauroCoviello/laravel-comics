@@ -31,6 +31,7 @@
         
 @endsection   
 
+{{-- inseriamo una section che conterra il secondo menu e verra esteso in layouts --}}
 @section('SecondMenu')
 
 <div class="container-fluid bg-primary py-5">

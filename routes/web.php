@@ -19,3 +19,14 @@ Route::get('/', function () {
     
     return view('home',compact('DcCards'));
 });
+
+// inseriamo una nuova rotta
+Route::get('/DcCards/{comic}', function ($id) {
+    
+    $DcCards = config('comics.DcCards');
+
+    $comic = $DcCards[$id];
+
+
+    return view('ShowCard',compact('comic')); 
+});
