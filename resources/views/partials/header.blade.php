@@ -2,8 +2,8 @@
     <div class="container-fluid bg-primary">
         <div class="row">
             <div class="col-10 text-end text-white">
-                <span class="pe-5">ADDITIONAL DC</span>
-                <span >ADDITIONAL DC</span>      
+                <span class="pe-5">DC POWER VISA</span>
+                <span >ADDITIONAL DC SITES</span>      
             </div>
 
             
@@ -29,7 +29,7 @@
                             <a href="#">SHOP</a>
                         </li>
                     </ul>
-                    <input type="text" placeholder="search">
+                    <input class="ms-4" type="text" placeholder="search">
                 </nav>                
             </div>
             

@@ -18,8 +18,13 @@ header{
             }
         }
         input{
-            margin-bottom: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid blue;
+            margin-bottom: 30px;
         }
+        
     }
 }
 main{
