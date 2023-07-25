@@ -11,11 +11,14 @@ header{
                 
                 a{
                     text-decoration: none;
-                    margin: 0 10px;
+                    margin: 0 5px;
                     color: black;
                     font-weight: 500;
                 }
             }
+        }
+        input{
+            margin-bottom: 5px;
         }
     }
 }
@@ -23,8 +26,10 @@ main{
 
 
     .jumbotron{
-        padding: 300px;
+        padding: 200px;
         background-image: url('../images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
 
     }
     .dc-card{
@@ -48,4 +53,14 @@ main{
         height: 100%;
     }
     
+    .list-type{
+        list-style-type: none;
+        
+
+        
+    }
+    .style-link{
+        text-decoration: none;
+        color: white;
+    }
 }

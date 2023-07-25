@@ -29,7 +29,7 @@
                             <a href="#">SHOP</a>
                         </li>
                     </ul>
-                    <!-- <input type="text" placeholder="search"> -->
+                    <input type="text" placeholder="search">
                 </nav>                
             </div>
             
