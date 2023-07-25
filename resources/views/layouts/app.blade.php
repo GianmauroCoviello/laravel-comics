@@ -21,7 +21,11 @@
     @include('partials.header')
     <main>
         <!-- inseriamo il segnaposto all'interno del main -->
-        @yield('content')  
+        @yield('content') 
+        
+        
+        @yield('SecondMenu')
+      
     </main>
 </body>
 
