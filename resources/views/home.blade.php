@@ -7,15 +7,18 @@
             <div class="row justify-content-center">
                 <div class="col-10 d-flex flex-wrap">
                     <!-- inseriamo un ciclo foreach ciclando l'array associativo contenuto del file comics.php -->
-                    @foreach($DcCards as $comic )
+                    @foreach($DcCards as $id => $comic )
                         <!-- cicliamo le card  -->
+                        
                         <div class="dc-card">
-                            <div class="content-img-card">
-                                <img src="{{$comic['thumb']}}" alt="">" 
-                            </div>
                             
-                            <p class="text-light">{{$comic['series']}}</p>
-
+                            <a href="{{route('DcCards.comic', $id)}}">
+                                <div class="content-img-card">
+                                    <img src="{{$comic['thumb']}}" alt="">" 
+                                </div>
+                            
+                                <p class="text-light">{{$comic['series']}}</p>
+                            </a>
                         </div>
                     @endforeach
                 </div>
