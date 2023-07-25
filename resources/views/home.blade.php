@@ -28,7 +28,7 @@
                         <!-- cicliamo le card  -->
                         <div class="dc-card">
                             <div class="content-img-card">
-                                <img src="https://picsum.photos/seed/picsum/200/300" alt="">" 
+                                <img src="{{$comic['thumb']}}" alt="">" 
                             </div>
                             
                             <p class="text-light">{{$comic['series']}}</p>
