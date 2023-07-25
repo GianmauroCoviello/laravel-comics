@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.app') {{-- estendiamo il layout di app prendendo la porzione di html della home e riprendendola tramite section in app --}}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>DC Comics - Homepage</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Styles -->
-    @vite('resources/js/app.js')
-
-</head>
-
-<body>
-    <!-- includiamo l'header all'interno della home -->
-    @include('partials.header')
-    <main>
+{{-- inseriamo tutto all'interno della section con il nome inserito nello @yield --}}
+@section('content')    
         <div class="jumbotron"></div>
         <div class="container-fluid bg-dark py-5 ">
             <div class="row justify-content-center">
@@ -46,9 +29,4 @@
             </div>
         </div>
         
-    </div>
-        
-    </main>
-</body>
-
-</html>
+@endsection       

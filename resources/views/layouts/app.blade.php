@@ -21,7 +21,7 @@
     @include('partials.header')
     <main>
         <!-- inseriamo il segnaposto all'interno del main -->
-        @yield   
+        @yield('content')  
     </main>
 </body>
 
